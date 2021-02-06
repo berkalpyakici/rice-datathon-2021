@@ -1,3 +1,4 @@
+
 let dropdown = document.getElementById('agency');
 dropdown.length = 0;
 
@@ -7,10 +8,13 @@ defaultOption.text = 'Select';
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
 
-const url = "";
+const url = "https://raw.githubusercontent.com/berkalpyakici/rice-datathon-2021/main/web/List_Agencies.json";
 
 const request = new XMLHttpRequest();
 request.open('GET', url, true);
+
+console.log(request);
+console.log(request[0]);
 
 request.onload = function() {
   if (request.status === 200) {
@@ -18,6 +22,7 @@ request.onload = function() {
     let option;
     for (let i = 0; i < data.length; i++) {
       option = document.createElement('option');
+      //console.log(option);
       option.text = data[i].name;
       option.value = data[i].abbreviation;
       dropdown.add(option);
