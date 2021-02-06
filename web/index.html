@@ -8,6 +8,13 @@
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
         <script src="js/Chart.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.23/datatables.min.css"/>
+ 
+        <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.23/datatables.min.js"></script>
+
     </head>
     <body>
         <section class="uk-section uk-section-primary uk-light">
@@ -22,100 +29,10 @@
                                 <div class="uk-grid-small" uk-grid>
                                     <div class="uk-width-expand@s uk-first-column">
                                         <select id="agency" class="uk-input uk-form-large uk-width-1-1 uk-border-pill">
-                                            <option value="null">Select</option>
-                                            <option value="Advisory Neighborhood Commission">Advisory Neighborhood Commission</option>
-                                            <option value="Alcoholic Beverage Regulation Administration">Alcoholic Beverage Regulation Administration</option>
-                                            <option value="Board of Elections & Ethics">Board of Elections and Ethics</option>
-                                            <option value="Board of Real Property Assessment & Appeals">Board of Real Property Assessment and Appeals</option>
-                                            <option value="Child & Family Services Administration">Child and Family Services Administration</option>
-                                            <option value="City Administrator/Deputy Mayor">City Administrator/Deputy Mayor</option>
-                                            <option value="Commission of Judicial Disabilities & Tenure">Commission of Judicial Disabilities and Tenure</option>
-                                            <option value="Commission on Arts & Humanities">Commission on Arts and Humanities</option>
-                                            <option value="Contract Appeals Board">Contract Appeals Board</option>
-                                            <option value="Criminal Justice Coordinating Council">Criminal Justice Coordinating Council</option>
-                                            <option value="DC BD OF ETHICS AND GOVT ACCOUNTABILITY">DC BD of Ethics and Government Accountability</option>
-                                            <option value="DC Council">DC Council</option>
-                                            <option value="DC Department of Human Resources">DC Department of Human Resources</option>
-                                            <option value="DC Health Benefit Exchange">DC Health Benefit Exchange</option>
-                                            <option value="DC Lottery & Charitable Games Control Board">DC Lottery and Charitable Games Control Board</option>
-                                            <option value="DC National Guard">DC National Guard</option>
-                                            <option value="DC Office of Risk Management">DC Office of Risk Management</option>
-                                            <option value="DC Public Library">DC Public Library</option>
-                                            <option value="DC STATE BOARD OF EDUCATION">DC State Board of Education</option>
-                                            <option value="DC Sentencing & Criminal Code Review Committee">DC Sentencing and Criminal Code Review Committee</option>
-                                            <option value="DC Taxicab Commission">DC Taxicab Commission</option>
-                                            <option value="DEPARTMENT OF FORENSICS SCIENCES">Department of Forensics Sciences</option>
-                                            <option value="DEPUTY MAYOR FOR HEALTH & HUMAN SERVICES">Deputy Mayor for Health and Human Services</option>
-                                            <option value="DEPUTY MAYOR FOR PUBLIC SAFETY & JUSTICE">Deputy Mayor for Public Safety and Justice</option>
-                                            <option value="Department of  Youth Rehabilitation Services">Department of Youth Rehabilitation Services</option>
-                                            <option value="Department of Consumer & Regulatory Affairs">Department of Consumer and Regulatory Affairs</option>
-                                            <option value="Department of Corrections">Department of Corrections</option>
-                                            <option value="Department of Education">Department of Education</option>
-                                            <option value="Department of Employment Services">Department of Employment Services</option>
-                                            <option value="Department of Health">Department of Health</option>
-                                            <option value="Department of Health Care Finance">Department of Health Care Finance</option>
-                                            <option value="Department of Housing & Community Development">Department of Housing and Community Development</option>
-                                            <option value="Department of Human Services">Department of Human Services</option>
-                                            <option value="Department of Insurance, Securities & Banking">Department of Insurance, Securities and Banking</option>
-                                            <option value="Department of Mental Health">Department of Mental Health</option>
-                                            <option value="Department of Motor Vehicles">Department of Motor Vehicles</option>
-                                            <option value="Department of Parks & Recreation">Department of Parks and Recreation</option>
-                                            <option value="Department of Property Management">Department of Property Management</option>
-                                            <option value="Department of Public Works">Department of Public Works</option>
-                                            <option value="Department of Small & Local Business Development">Department of Small and Local Business Development</option>
-                                            <option value="Department on Disability Services">Department on Disability Services</option>
-                                            <option value="Deputy Mayor for Economic Development">Deputy Mayor for Economic Development</option>
-                                            <option value="Disability Compensation Fund">Disability Compensation Fund</option>
-                                            <option value="District Department of Transportation">District Department of Transportation</option>
-                                            <option value="District Department of the Environment">District Department of the Environment</option>
-                                            <option value="District of Columbia Public Schools">District of Columbia Public Schools</option>
-                                            <option value="Fire & Emergency Medical Services">Fire and Emergency Medical Services</option>
-                                            <option value="Homeland Security/Emergency Management">Homeland Security/Emergency Management</option>
-                                            <option value="Judicial Nomination Commission">Judicial Nomination Commission</option>
-                                            <option value="Medical Liability Captive Insurance Agency">Medical Liability Captive Insurance Agency</option>
-                                            <option value="Metropolitan Police Department">Metropolitan Police Department</option>
-                                            <option value="NFP Hospital Corporation">NFP Hospital Corporation</option>
-                                            <option value="OFFICE OF CAMPAIGN FINANCE">Office of Campaign Finance</option>
-                                            <option value="OFFICE OF PEOPLE'S COUNSEL">Office of People's Counsel</option>
-                                            <option value="Office of Administrative Hearings">Office of Administrative Hearings</option>
-                                            <option value="Office of Cable TV">Office of Cable TV</option>
-                                            <option value="Office of Community Affairs">Office of Community Affairs</option>
-                                            <option value="Office of Contracting & Procurement">Office of Contracting and Procurement</option>
-                                            <option value="Office of Disability Rights">Office of Disability Rights</option>
-                                            <option value="Office of Employee Appeals">Office of Employee Appeals</option>
-                                            <option value="Office of Finance & Resource Management">Office of Finance and Resource Management</option>
-                                            <option value="Office of Human Rights">Office of Human Rights</option>
-                                            <option value="Office of Justice Grants Administration">Office of Justice Grants Administration</option>
-                                            <option value="Office of Latino Affairs">Office of Latino Affairs</option>
-                                            <option value="Office of Motion Pictures & Television">Office of Motion Pictures and Television</option>
-                                            <option value="Office of Municipal Planning">Office of Municipal Planning</option>
-                                            <option value="Office of Partnership & Grant Services">Office of Partnership and Grant Services</option>
-                                            <option value="Office of Police Complaints">Office of Police Complaints</option>
-                                            <option value="Office of Public Educational Facilities Modernization">Office of Public Educational Facilities Modernization</option>
-                                            <option value="Office of Unified Communications">Office of Unified Communications</option>
-                                            <option value="Office of Veterans Affairs">Office of Veterans Affairs</option>
-                                            <option value="Office of Victim Services">Office of Victim Services</option>
-                                            <option value="Office of Zoning">Office of Zoning</option>
-                                            <option value="Office of the Attorney General">Office of the Attorney General</option>
-                                            <option value="Office of the Chief Financial Officer">Office of the Chief Financial Officer</option>
-                                            <option value="Office of the Chief Medical Examiner">Office of the Chief Medical Examiner</option>
-                                            <option value="Office of the Chief Technology Officer">Office of the Chief Technology Officer</option>
-                                            <option value="Office of the Inspector General">Office of the Inspector General</option>
-                                            <option value="Office of the Mayor">Office of the Mayor</option>
-                                            <option value="Office of the Secretary">Office of the Secretary</option>
-                                            <option value="Office of the State Superintendent of Education">Office of the State Superintendent of Education</option>
-                                            <option value="Office of the Tenant Advocate">Office of the Tenant Advocate</option>
-                                            <option value="Office on Aging">Office on Aging</option>
-                                            <option value="Office on Asian/Pacific Affairs">Office on Asian/Pacific Affairs</option>
-                                            <option value="Public Employee Relations Board">Public Employee Relations Board</option>
-                                            <option value="Public Service Commission">Public Service Commission</option>
-                                            <option value="Serve DC">Serve DC</option>
-                                            <option value="University of the District of Columbia">University of the District of Columbia</option>
-                                            <option value="Unknown New Agency">Unknown New Agency</option>    
                                         </select>
                                     </div>
                                     <div class="uk-width-1-1 uk-width-auto@s">
-                                        <input type="submit" value="View" class="uk-button uk-button-primary uk-button-large uk-border-pill">
+                                        <input id = "loadInfo" type="button" value="View" class="uk-button uk-button-primary uk-button-large uk-border-pill">
                                     </div>
                                 </div>
                             </form>
@@ -125,11 +42,154 @@
             </div>
         </section>
 
-        <section class="uk-section">
-            <div class="uk-text-center">
-                <canvas class="pieChart"></canvas>
+        <section id ="infosec" class="uk-section">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-1-3@m">
+                        <canvas id="myChart">
+
+                        </canvas>
+                    </div>
+                    <div class="uk-width-2-3@m">
+                        <h3>Top 5 Vendors by Spending Volume</h3>
+                        <table class="uk-table">
+                            <thead>
+                                <tr>
+                                    <th>Vendor Name</th>
+                                    <th>Total Spending</th>
+                                </tr>
+                            </thead>
+                            <tbody id = "topVendors">
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <div id="secondsec" class="uk-section uk-section-secondary uk-light">
+            <div class="uk-container">
+        
+                <h3>Alternate Vendors by Similarity</h3>
+        
+                <table class="uk-table">
+                    <thead>
+                        <tr>
+                            <th>Vendor Name</th>
+                            <th>Total Spending</th>
+                        </tr>
+                    </thead>
+                    <tbody id = "topAlternateVendor">
+                        <tr>
+                            <td>Table Data</td>
+                            <td>Table Data</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data</td>
+                            <td>Table Data</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data</td>
+                            <td>Table Data</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data</td>
+                            <td>Table Data</td>
+                        </tr>
+                        <tr>
+                            <td>Table Data</td>
+                            <td>Table Data</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+            </div>
+        </div>
     </body>
+
+    <script type="text/javascript">
+        var ctx = document.getElementById("myChart");
+        var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['TRAVEL', 'OFFICE SUPPLIES', 'HOTEL'],
+            datasets: [{
+            label: '# of Tomatoes',
+            data: [12, 19, 3],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.5)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)'
+            ],
+            borderWidth: 1
+            }]
+        },
+        options: {
+            //cutoutPercentage: 40,
+            responsive: false,
+        }
+        });
+    </script>
+
+    <script type="text/javascript">
+    var payments;
+    var agencies;
+
+    $(document).ready(function() {
+        $("#infosec").hide();
+        $("#secondsec").hide();
+
+        $.getJSON( "https://raw.githubusercontent.com/berkalpyakici/rice-datathon-2021/main/data/payments.json", function( data ) {
+            payments = data;
+        });
+        $.getJSON( "https://raw.githubusercontent.com/berkalpyakici/rice-datathon-2021/main/data/agencies.json", function( data ) {
+            agencies = data;
+            console.log(agencies);
+            agencies.forEach((values, keys)=>{ 
+                $("#agency").append("<option value='"+keys+"'>"+values[0]+"</option>");
+            });
+        });
+    });
+
+    function loadInfo(agencyNum) {
+        var pays = payments[agencyNum];
+        console.log(pays[707]);
+        pays.forEach((values, keys)=>{ 
+            $("#topVendors").append("<tr><td>"+keys+"</td><td>$"+values+"</td></tr>");
+        });
+
+        $("#infosec").show();
+        $("#secondsec").show();
+    }
+
+    $("#loadInfo").click(function(e) {
+        loadInfo($('#agency').val());
+    });
+    </script>
 </html>
 
