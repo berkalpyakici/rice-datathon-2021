@@ -1,1 +1,269 @@
-{"Advisory Neighborhood Commission": 0, "Alcoholic Beverage Regulation Administration": 1, "Board of Elections & Ethics": 2, "Board of Real Property Assessment & Appeals": 3, "Child & Family Services Administration": 4, "City Administrator/Deputy Mayor": 5, "Commission of Judicial Disabilities & Tenure": 6, "Commission on Arts & Humanities": 7, "Contract Appeals Board": 8, "Criminal Justice Coordinating Council": 9, "DC BD OF ETHICS AND GOVT ACCOUNTABILITY": 10, "DC Council": 11, "DC Department of Human Resources": 12, "DC Health Benefit Exchange": 13, "DC Lottery & Charitable Games Control Board": 14, "DC National Guard": 15, "DC Office of Risk Management": 16, "DC Public Library": 17, "DC STATE BOARD OF EDUCATION": 18, "DC Sentencing & Criminal Code Review Committee": 19, "DC Taxicab Commission": 20, "DEPARTMENT OF FORENSICS SCIENCES": 21, "DEPUTY MAYOR FOR HEALTH & HUMAN SERVICES": 22, "DEPUTY MAYOR FOR PUBLIC SAFETY & JUSTICE": 23, "Department of  Youth Rehabilitation Services": 24, "Department of Consumer & Regulatory Affairs": 25, "Department of Corrections": 26, "Department of Education": 27, "Department of Employment Services": 28, "Department of Health": 29, "Department of Health Care Finance": 30, "Department of Housing & Community Development": 31, "Department of Human Services": 32, "Department of Insurance, Securities & Banking": 33, "Department of Mental Health": 34, "Department of Motor Vehicles": 35, "Department of Parks & Recreation": 36, "Department of Property Management": 37, "Department of Public Works": 38, "Department of Small & Local Business Development": 39, "Department on Disability Services": 40, "Deputy Mayor for Economic Development": 41, "Disability Compensation Fund": 42, "District Department of Transportation": 43, "District Department of the Environment": 44, "District of Columbia Public Schools": 45, "Fire & Emergency Medical Services": 46, "Homeland Security/Emergency Management": 47, "Judicial Nomination Commission": 48, "Medical Liability Captive Insurance Agency": 49, "Metropolitan Police Department": 50, "NFP Hospital Corporation": 51, "OFFICE OF CAMPAIGN FINANCE": 52, "OFFICE OF PEOPLE'S COUNSEL": 53, "Office of Administrative Hearings": 54, "Office of Cable TV": 55, "Office of Community Affairs": 56, "Office of Contracting & Procurement": 57, "Office of Disability Rights": 58, "Office of Employee Appeals": 59, "Office of Finance & Resource Management": 60, "Office of Human Rights": 61, "Office of Justice Grants Administration": 62, "Office of Latino Affairs": 63, "Office of Motion Pictures & Television": 64, "Office of Municipal Planning": 65, "Office of Partnership & Grant Services": 66, "Office of Police Complaints": 67, "Office of Public Educational Facilities Modernization": 68, "Office of Unified Communications": 69, "Office of Veterans Affairs": 70, "Office of Victim Services": 71, "Office of Zoning": 72, "Office of the Attorney General": 73, "Office of the Chief Financial Officer": 74, "Office of the Chief Medical Examiner": 75, "Office of the Chief Technology Officer": 76, "Office of the Inspector General": 77, "Office of the Mayor": 78, "Office of the Secretary": 79, "Office of the State Superintendent of Education": 80, "Office of the Tenant Advocate": 81, "Office on Aging": 82, "Office on Asian/Pacific Affairs": 83, "Public Employee Relations Board": 84, "Public Service Commission": 85, "Serve DC": 86, "University of the District of Columbia": 87, "Unknown New Agency": 88}
+[
+  {
+    "0": "Advisory Neighborhood Commission"
+  },
+  {
+    "0": "Alcoholic Beverage Regulation Administration"
+  },
+  {
+    "0": "Board of Elections & Ethics"
+  },
+  {
+    "0": "Board of Real Property Assessment & Appeals"
+  },
+  {
+    "0": "Child & Family Services Administration"
+  },
+  {
+    "0": "City Administrator/Deputy Mayor"
+  },
+  {
+    "0": "Commission of Judicial Disabilities & Tenure"
+  },
+  {
+    "0": "Commission on Arts & Humanities"
+  },
+  {
+    "0": "Contract Appeals Board"
+  },
+  {
+    "0": "Criminal Justice Coordinating Council"
+  },
+  {
+    "0": "DC BD OF ETHICS AND GOVT ACCOUNTABILITY"
+  },
+  {
+    "0": "DC Council"
+  },
+  {
+    "0": "DC Department of Human Resources"
+  },
+  {
+    "0": "DC Health Benefit Exchange"
+  },
+  {
+    "0": "DC Lottery & Charitable Games Control Board"
+  },
+  {
+    "0": "DC National Guard"
+  },
+  {
+    "0": "DC Office of Risk Management"
+  },
+  {
+    "0": "DC Public Library"
+  },
+  {
+    "0": "DC STATE BOARD OF EDUCATION"
+  },
+  {
+    "0": "DC Sentencing & Criminal Code Review Committee"
+  },
+  {
+    "0": "DC Taxicab Commission"
+  },
+  {
+    "0": "DEPARTMENT OF FORENSICS SCIENCES"
+  },
+  {
+    "0": "DEPUTY MAYOR FOR HEALTH & HUMAN SERVICES"
+  },
+  {
+    "0": "DEPUTY MAYOR FOR PUBLIC SAFETY & JUSTICE"
+  },
+  {
+    "0": "Department of  Youth Rehabilitation Services"
+  },
+  {
+    "0": "Department of Consumer & Regulatory Affairs"
+  },
+  {
+    "0": "Department of Corrections"
+  },
+  {
+    "0": "Department of Education"
+  },
+  {
+    "0": "Department of Employment Services"
+  },
+  {
+    "0": "Department of Health"
+  },
+  {
+    "0": "Department of Health Care Finance"
+  },
+  {
+    "0": "Department of Housing & Community Development"
+  },
+  {
+    "0": "Department of Human Services"
+  },
+  {
+    "0": "Department of Insurance, Securities & Banking"
+  },
+  {
+    "0": "Department of Mental Health"
+  },
+  {
+    "0": "Department of Motor Vehicles"
+  },
+  {
+    "0": "Department of Parks & Recreation"
+  },
+  {
+    "0": "Department of Property Management"
+  },
+  {
+    "0": "Department of Public Works"
+  },
+  {
+    "0": "Department of Small & Local Business Development"
+  },
+  {
+    "0": "Department on Disability Services"
+  },
+  {
+    "0": "Deputy Mayor for Economic Development"
+  },
+  {
+    "0": "Disability Compensation Fund"
+  },
+  {
+    "0": "District Department of Transportation"
+  },
+  {
+    "0": "District Department of the Environment"
+  },
+  {
+    "0": "District of Columbia Public Schools"
+  },
+  {
+    "0": "Fire & Emergency Medical Services"
+  },
+  {
+    "0": "Homeland Security/Emergency Management"
+  },
+  {
+    "0": "Judicial Nomination Commission"
+  },
+  {
+    "0": "Medical Liability Captive Insurance Agency"
+  },
+  {
+    "0": "Metropolitan Police Department"
+  },
+  {
+    "0": "NFP Hospital Corporation"
+  },
+  {
+    "0": "OFFICE OF CAMPAIGN FINANCE"
+  },
+  {
+    "0": "OFFICE OF PEOPLE'S COUNSEL"
+  },
+  {
+    "0": "Office of Administrative Hearings"
+  },
+  {
+    "0": "Office of Cable TV"
+  },
+  {
+    "0": "Office of Community Affairs"
+  },
+  {
+    "0": "Office of Contracting & Procurement"
+  },
+  {
+    "0": "Office of Disability Rights"
+  },
+  {
+    "0": "Office of Employee Appeals"
+  },
+  {
+    "0": "Office of Finance & Resource Management"
+  },
+  {
+    "0": "Office of Human Rights"
+  },
+  {
+    "0": "Office of Justice Grants Administration"
+  },
+  {
+    "0": "Office of Latino Affairs"
+  },
+  {
+    "0": "Office of Motion Pictures & Television"
+  },
+  {
+    "0": "Office of Municipal Planning"
+  },
+  {
+    "0": "Office of Partnership & Grant Services"
+  },
+  {
+    "0": "Office of Police Complaints"
+  },
+  {
+    "0": "Office of Public Educational Facilities Modernization"
+  },
+  {
+    "0": "Office of Unified Communications"
+  },
+  {
+    "0": "Office of Veterans Affairs"
+  },
+  {
+    "0": "Office of Victim Services"
+  },
+  {
+    "0": "Office of Zoning"
+  },
+  {
+    "0": "Office of the Attorney General"
+  },
+  {
+    "0": "Office of the Chief Financial Officer"
+  },
+  {
+    "0": "Office of the Chief Medical Examiner"
+  },
+  {
+    "0": "Office of the Chief Technology Officer"
+  },
+  {
+    "0": "Office of the Inspector General"
+  },
+  {
+    "0": "Office of the Mayor"
+  },
+  {
+    "0": "Office of the Secretary"
+  },
+  {
+    "0": "Office of the State Superintendent of Education"
+  },
+  {
+    "0": "Office of the Tenant Advocate"
+  },
+  {
+    "0": "Office on Aging"
+  },
+  {
+    "0": "Office on Asian/Pacific Affairs"
+  },
+  {
+    "0": "Public Employee Relations Board"
+  },
+  {
+    "0": "Public Service Commission"
+  },
+  {
+    "0": "Serve DC"
+  },
+  {
+    "0": "University of the District of Columbia"
+  },
+  {
+    "0": "Unknown New Agency"
+  }
+]
