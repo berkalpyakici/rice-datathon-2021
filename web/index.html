@@ -159,29 +159,36 @@
     <script type="text/javascript">
     var payments;
     var agencies;
+    var resultss;
 
     $(document).ready(function() {
         $("#infosec").hide();
         $("#secondsec").hide();
+
+        $.getJSON( "https://raw.githubusercontent.com/berkalpyakici/rice-datathon-2021/main/results.json", function( data ) {
+            resultss = data;
+            console.log(data);
+        });
 
         $.getJSON( "https://raw.githubusercontent.com/berkalpyakici/rice-datathon-2021/main/data/payments.json", function( data ) {
             payments = data;
         });
         $.getJSON( "https://raw.githubusercontent.com/berkalpyakici/rice-datathon-2021/main/data/agencies.json", function( data ) {
             agencies = data;
-            console.log(agencies);
             agencies.forEach((values, keys)=>{ 
                 $("#agency").append("<option value='"+keys+"'>"+values[0]+"</option>");
             });
         });
     });
 
+
     function loadInfo(agencyNum) {
-        var pays = payments[agencyNum];
-        console.log(pays[707]);
-        pays.forEach((values, keys)=>{ 
-            $("#topVendors").append("<tr><td>"+keys+"</td><td>$"+values+"</td></tr>");
-        });
+        console.log(resultss);
+        // var pays = payments[agencyNum];
+        // console.log(pays[707]);
+        // pays.forEach((values, keys)=>{ 
+        //     $("#topVendors").append("<tr><td>"+keys+"</td><td>$"+values+"</td></tr>");
+        // });
 
         $("#infosec").show();
         $("#secondsec").show();
