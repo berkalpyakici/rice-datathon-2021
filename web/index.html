@@ -9,6 +9,7 @@
         <script src="js/uikit-icons.min.js"></script>
         <script src="js/Chart.min.js"></script>
         <script src="js/index.js" defer></script>
+        <script src="js/csv-to-dropdown.js" defer></script>
     </head>
     <body>
         <section class="uk-section uk-section-primary uk-light">
@@ -22,9 +23,9 @@
                             <form>
                                 <div class="uk-grid-small" uk-grid>
                                     <div class="uk-width-expand@s uk-first-column">
-                                        <select class="uk-input uk-form-large uk-width-1-1 uk-border-pill">
-                                            <option>Option 01</option>
-                                            <option>Option 02</option>
+                                        <select id="agency" class="uk-input uk-form-large uk-width-1-1 uk-border-pill">
+                                            <option value="null">Select</option>
+                                            
                                         </select>
                                     </div>
                                     <div class="uk-width-1-1 uk-width-auto@s">
